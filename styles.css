@@ -1,0 +1,58 @@
+/* Basic Styling */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Header Styling */
+h1 {
+  color: #1c1c1c;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Section Styling */
+section {
+  margin-bottom: 50px;
+}
+
+/* Card Styling */
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Button Styling */
+.btn {
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+/* Footer Styling */
+footer {
+  font-size: 1rem;
+  color: #777;
+}
+
+/* Animation on Page Load */
+.animate__animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+/* Add some margin to prevent overflow from animation */
+section {
+  padding-bottom: 50px;
+}
